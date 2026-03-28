@@ -30,7 +30,7 @@ const mockTrending = [
 ];
 
 const mockCategories = [
-    { title: 'NETFLIX ORIGINALS', data: mockOriginals, isLargeRow: true },
+    { title: 'NETADA ORIGINALS', data: mockOriginals, isLargeRow: true },
     { title: 'Trending Now', data: mockTrending, isLargeRow: false },
     { title: 'Top Rated', data: mockOriginals.slice().reverse(), isLargeRow: false },
     { title: 'Action Movies', data: mockTrending.slice(2).concat(mockTrending.slice(0, 2)), isLargeRow: false },
